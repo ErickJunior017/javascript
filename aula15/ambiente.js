@@ -2,7 +2,7 @@ let num = [ 5, 8, 2, 9, 3]
 num.push(1)
 num.sort()
 console.log(num)
-console.log(`O vetor rem ${num.length} posições`)
+console.log(`O vetor tem ${num.length} posições`)
 console.log(`O primeiro valor do vetor é ${num[0]}`)
 let pos = num.indexOf(4)
 if (pos == -1){
@@ -11,3 +11,13 @@ if (pos == -1){
     console.log(`O valor esta na posição ${pos}`)
 }
 console.log(`O valor 4 está na posição ${pos}`)
+console.log(num[2])
+for (let pos in num){
+    console.log(num[pos])
+}
+let n = 10
+for(let c = 0; c <= n; c++){
+    for(let f = 0; f <= n; f++){
+        console.log(1 *  f)
+    }
+}
